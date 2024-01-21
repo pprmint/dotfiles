@@ -1,0 +1,125 @@
+/*
+* pprmint.palette 2024
+*/
+
+@define-color red-50    #fde9ec;
+@define-color red-100   #fec8ca;
+@define-color red-200   #fea6a7;
+@define-color red-300   #ff8585;
+@define-color red-400   #ff6665;
+@define-color red-500   #ff4444;
+@define-color red-600   #d43838;
+@define-color red-700   #ae2e2e;
+@define-color red-800   #822222;
+@define-color red-900   #591717;
+@define-color red-950   #2e0b0b;
+
+@define-color orange-50     #ffeee4;
+@define-color orange-100    #ffd7be;
+@define-color orange-200    #ffbf97;
+@define-color orange-300    #ffa871;
+@define-color orange-400    #ff8f4a;
+@define-color orange-500    #ff7711;
+@define-color orange-600    #e06100;
+@define-color orange-700    #b85000;
+@define-color orange-800    #8f3e00;
+@define-color orange-900    #662c00;
+@define-color orange-950    #3d1600;
+
+@define-color yellow-50     #fff4d6;
+@define-color yellow-100    #ffe9ad;
+@define-color yellow-200    #ffde85;
+@define-color yellow-300    #ffd35c;
+@define-color yellow-400    #ffc933;
+@define-color yellow-500    #ffbb00;
+@define-color yellow-600    #dfa000;
+@define-color yellow-700    #c08600;
+@define-color yellow-800    #a16d00;
+@define-color yellow-900    #774900;
+@define-color yellow-950    #371e00;
+
+@define-color lime-50   #eff7de;
+@define-color lime-100  #deefbe;
+@define-color lime-200  #cee79d;
+@define-color lime-300  #bede7c;
+@define-color lime-400  #add65c;
+@define-color lime-500  #99cc33;
+@define-color lime-600  #87b42d;
+@define-color lime-700  #6e9325;
+@define-color lime-800  #56721d;
+@define-color lime-900  #3d5214;
+@define-color lime-950  #1f290b;
+
+@define-color green-50  #d6ffe9;
+@define-color green-100 #aef6d0;
+@define-color green-200 #84ecb6;
+@define-color green-300 #5ae39c;
+@define-color green-400 #30d982;
+@define-color green-500 #00cc66;
+@define-color green-600 #00b85c;
+@define-color green-700 #008f47;
+@define-color green-800 #006633;
+@define-color green-900 #005229;
+@define-color green-950 #002914;
+
+@define-color cyan-50   #def7ff;
+@define-color cyan-100  #c2f1ff;
+@define-color cyan-200  #adecff;
+@define-color cyan-300  #85e2ff;
+@define-color cyan-400  #5cd9ff;
+@define-color cyan-500  #22ccff;
+@define-color cyan-600  #00bcf5;
+@define-color cyan-700  #009ccc;
+@define-color cyan-800  #007da3;
+@define-color cyan-900  #005e7a;
+@define-color cyan-950  #002f3d;
+
+@define-color blue-50   #def0ff;
+@define-color blue-100  #bde1ff;
+@define-color blue-200  #99d1ff;
+@define-color blue-300  #70bcff;
+@define-color blue-400  #47a9ff;
+@define-color blue-500  #2299ff;
+@define-color blue-600  #0083f5;
+@define-color blue-700  #006dcc;
+@define-color blue-800  #0057a3;
+@define-color blue-900  #00417a;
+@define-color blue-950  #00213d;
+
+@define-color violet-50     #f4ecfd;
+@define-color violet-100    #e9dafb;
+@define-color violet-200    #d3b5f8;
+@define-color violet-300    #bd90f4;
+@define-color violet-400    #a76af0;
+@define-color violet-500    #9955ee;
+@define-color violet-600    #8844dc;
+@define-color violet-700    #7332c8;
+@define-color violet-800    #6520b4;
+@define-color violet-900    #4D158E;
+@define-color violet-950    #25074a;
+
+@define-color pink-50  #fdedf7;
+@define-color pink-100 #fbdaee;
+@define-color pink-200 #f9c8e6;
+@define-color pink-300 #f5a3d6;
+@define-color pink-400 #f17ec5;
+@define-color pink-500 #ee66bb;
+@define-color pink-600 #dc56ab;
+@define-color pink-700 #c74299;
+@define-color pink-800 #a42d7e;
+@define-color pink-900 #7f1b65;
+@define-color pink-950 #470034;
+
+@define-color neutral-50    #eeeeee;
+@define-color neutral-100   #dddddd;
+@define-color neutral-200   #cccccc;
+@define-color neutral-300   #bbbbbb;
+@define-color neutral-400   #999999;
+@define-color neutral-500   #777777;
+@define-color neutral-600   #555555;
+@define-color neutral-700   #444444;
+@define-color neutral-800   #333333;
+@define-color neutral-900   #222222;
+@define-color neutral-950   #111111;
+
+@define-color text  #aaaaaa;

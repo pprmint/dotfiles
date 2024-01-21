@@ -1,0 +1,261 @@
+{
+	"layer": "top",
+	"output": "DP-1",
+	"position": "top",
+	"height": 33,
+	"margin-top": 10,
+	"margin-left": 10,
+	"margin-right": 10,
+	"spacing": 10,
+	"modules-left": [
+		"hyprland/workspaces",
+		"custom/media"
+	],
+	"modules-center": [
+		"clock"
+	],
+	"modules-right": [
+		"tray",
+		"cpu",
+		"memory",
+		"custom/wl-gammarelay-temperature",
+		"custom/wl-gammarelay-brightness",
+		"pulseaudio"
+	],
+	"hyprland/workspaces": {
+		"on-click": "activate",
+		"disable-scroll": true,
+		"all-outputs": true,
+		"warp-on-scroll": false,
+		"format": "{name}",
+		"format-icons": {
+			"1": "",
+			"2": "",
+			"3": "",
+			"4": "",
+			"5": "",
+			"urgent": "",
+			"focused": "",
+			"default": ""
+		}
+	},
+	"keyboard-state": {
+		"numlock": false,
+		"capslock": true,
+		"format": "{icon}",
+		"format-icons": {
+			"locked": "",
+			"unlocked": ""
+		}
+	},
+	"hyprland/scratchpad": {
+		"format": "{icon} {count}",
+		"show-empty": false,
+		"format-icons": [
+			"",
+			""
+		],
+		"tooltip": true,
+		"tooltip-format": "{app}: {title}"
+	},
+	"mpd": {
+		"format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ⸨{songPosition}|{queueLength}⸩ {volume}% ",
+		"format-disconnected": "Disconnected ",
+		"format-stopped": "{consumeIcon}{randomIcon}{repeatIcon}{singleIcon}Stopped ",
+		"unknown-tag": "N/A",
+		"interval": 2,
+		"consume-icons": {
+			"on": " "
+		},
+		"random-icons": {
+			"off": "<span color=\"#ff4444\"></span> ",
+			"on": " "
+		},
+		"repeat-icons": {
+			"on": " "
+		},
+		"single-icons": {
+			"on": "1 "
+		},
+		"state-icons": {
+			"paused": "",
+			"playing": ""
+		},
+		"tooltip-format": "MPD (connected)",
+		"tooltip-format-disconnected": "MPD (disconnected)"
+	},
+	"idle_inhibitor": {
+		"format": "{icon}",
+		"format-icons": {
+			"activated": "",
+			"deactivated": ""
+		}
+	},
+	"tray": {
+		"icon-size": 17,
+		"spacing": 10
+	},
+	"clock": {
+		"format": "{:%H:%M   %d.%m.%Y}",
+		"format-alt": "{:%d.%m.%Y}",
+		"tooltip-format": "<tt>{calendar}</tt>"
+	},
+	"cpu": {
+		"format": "{icon}   {usage}%",
+		"format-icons": [
+			"<span color='#00cc66'></span>",
+			"<span color='#00cc66'></span>",
+			"<span color='#00cc66'></span>",
+			"<span color='#99cc33'></span>",
+			"<span color='#ffbb00'></span>",
+			"<span color='#ff7711'></span>",
+			"<span color='#ff4444'></span>",
+			"<span color='#ff4444'></span>"
+		],
+		"tooltip": false
+	},
+	"memory": {
+		"format": "{icon}   {}%",
+		"format-icons": [
+			"<span color='#00cc66'></span>",
+			"<span color='#00cc66'></span>",
+			"<span color='#00cc66'></span>",
+			"<span color='#99cc33'></span>",
+			"<span color='#ffbb00'></span>",
+			"<span color='#ff7711'></span>",
+			"<span color='#ff4444'></span>",
+			"<span color='#ff4444'></span>"
+		]
+	},
+	"temperature": {
+		"critical-threshold": 80,
+		"format": "{temperatureC}°C {icon}",
+		"format-icons": [
+			"",
+			"",
+			""
+		]
+	},
+	"backlight": {
+		"format": "{percent}% {icon}",
+		"format-icons": [
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"battery": {
+		"states": {
+			"warning": 30,
+			"critical": 15
+		},
+		"format": "{capacity}% {icon}",
+		"format-charging": "{capacity}% ",
+		"format-plugged": "{capacity}% ",
+		"format-alt": "{time} {icon}",
+		"format-icons": [
+			"",
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"battery#bat2": {
+		"bat": "BAT2"
+	},
+	"network": {
+		"format": "{ifname}",
+		"format-wifi": "{essid} ({signalStrength}%) ",
+		"format-ethernet": "{icon}   {ipaddr}",
+		"format-disconnected": "",
+		"tooltip-format": "{ifname}",
+		"tooltip-format-wifi": "{essid} ({signalStrength}%) ",
+		"tooltip-format-ethernet": "{ifname}",
+		"tooltip-format-disconnected": "Disconnected ",
+		"format-icons": [
+			"<span color='#00cc66'></span>"
+		]
+	},
+	"pulseaudio": {
+		"format": "{icon}   {volume}% {format_source}",
+		"format-bluetooth": "{volume}% {icon} {format_source}",
+		"format-bluetooth-muted": " {icon} {format_source}",
+		"format-muted": "<span color='#f44'></span> {format_source}",
+		"format-source": "   <span color='#00cc66'></span>   {volume}%",
+		"format-source-muted": "",
+		"format-icons": {
+			"headphone": "",
+            "hdmi": [
+				"<span color='#00cc66'></span>",
+				"<span color='#00cc66'></span>",
+				"<span color='#00cc66'></span>",
+				"<span color='#00cc66'></span>",
+				"<span color='#00cc66'></span>",
+				"<span color='#00cc66'></span>",
+				"<span color='#99cc33'></span>",
+				"<span color='#ffbb00'></span>",
+				"<span color='#ff7711'></span>",
+				"<span color='#ff4444'></span>",
+				"<span color='#ff4444'></span>"
+			],
+			"hands-free": "",
+			"headset": "",
+			"phone": "",
+			"portable": "",
+			"car": "",
+			"default": [
+				"<span color='#00cc66'></span>",
+				"<span color='#00cc66'></span>",
+				"<span color='#00cc66'></span>",
+				"<span color='#00cc66'></span>",
+				"<span color='#00cc66'></span>",
+				"<span color='#00cc66'></span>",
+				"<span color='#99cc33'></span>",
+				"<span color='#ffbb00'></span>",
+				"<span color='#ff7711'></span>",
+				"<span color='#ff4444'></span>",
+				"<span color='#ff4444'></span>"
+			]
+		},
+		"tooltip": false,
+		"on-click": "pavucontrol",
+		"on-click-right": "$HOME/.local/share/scripts/toggle-output.sh",
+		"on-scroll-up": "$HOME/.local/share/scripts/volume-control.sh increase",
+		"on-scroll-down": "$HOME/.local/share/scripts/volume-control.sh decrease",
+		"on-click-middle": "$HOME/.local/share/scripts/volume-control.sh toggle-mute"
+	},
+	"custom/media": {
+		"format": "{icon} {}",
+		"return-type": "json",
+		"max-length": 40,
+		"format-icons": {
+			"spotify": "",
+			"default": "🎜"
+		},
+		"escape": true,
+		"exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null"
+	},
+	"custom/wl-gammarelay-temperature": {
+		"format": "<span color='#0c6'></span>   {}K",
+		"exec": "wl-gammarelay-rs watch {t}",
+		"on-scroll-up": "$HOME/.local/share/scripts/temperature-control.sh increase",
+		"on-scroll-down": "$HOME/.local/share/scripts/temperature-control.sh decrease",
+		"on-click-middle": "$HOME/.local/share/scripts/temperature-control.sh reset",
+		"tooltip": false
+	},
+	"custom/wl-gammarelay-brightness": {
+		"format": "<span color='#0c6'></span>   {}%",
+		"exec": "wl-gammarelay-rs watch {bp}",
+		"on-scroll-up": "$HOME/.local/share/scripts/brightness-control.sh increase",
+		"on-scroll-down": "$HOME/.local/share/scripts/brightness-control.sh decrease",
+		"on-click-middle": "$HOME/.local/share/scripts/brightness-control.sh reset",
+		"tooltip": false
+	}
+}
