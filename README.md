@@ -10,8 +10,9 @@ I use [Arch](https://archlinux.org/) btw.
 
 ![Desktop screenshot.](/.repoassets/screenshot_desktop.png)
 
-![Power menu screenshot.](/.repoassets/screenshot_tofi_powermenu.png)
 ![Screen brightness and color temperature screenshot.](/.repoassets/screenshot_temperature_brightness.png)
+
+![Power menu screenshot.](/.repoassets/screenshot_tofi_powermenu.png)
 
 # Setup.
 
