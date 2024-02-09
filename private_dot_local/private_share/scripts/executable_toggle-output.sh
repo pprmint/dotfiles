@@ -1,8 +1,8 @@
 #!/bin/sh
 
 # Names of sinks for speakers and headphones. (List with `pactl list sinks short`)
-speakers="alsa_output.pci-0000_2a_00.4.2.analog-stereo"
-headphones="alsa_output.pci-0000_27_00.1.3.hdmi-stereo-extra3"
+speakers="alsa_output.pci-0000_2a_00.4.analog-surround-21"
+headphones="alsa_output.pci-0000_27_00.1.hdmi-stereo-extra3"
 
 # Get current default sink.
 current_sink=$(pactl get-default-sink)
