@@ -52,7 +52,7 @@
 
     # Set the progress bar height. This includes the frame, so make sure
     # it's at least twice as big as the frame width.
-    progress_bar_height = 10
+    progress_bar_height = 8
 
     # Set the frame width of the progress bar
     progress_bar_frame_width = 1
@@ -64,7 +64,7 @@
     progress_bar_max_width = 500
 
     # Corner radius for the progress bar. 0 disables rounded corners.
-    progress_bar_corner_radius = 5
+    progress_bar_corner_radius = 4
 
     # Corner radius for the icon image.
     icon_corner_radius = 4
@@ -82,20 +82,20 @@
     # notifications.
     # Set to 0 to disable.
     # If gap_size is greater than 0, this setting will be ignored.
-    separator_height = 2
+    separator_height = 1
 
     # Padding between text and separator.
-    padding = 15
+    padding = 16
 
     # Horizontal padding.
-    horizontal_padding = 15
+    horizontal_padding = 16
 
     # Padding between text and icon.
-    text_icon_padding = 15
+    text_icon_padding = 16
 
     # Defines width in pixels of frame around the notification window.
     # Set to 0 to disable.
-    frame_width = 2
+    frame_width = 1
 
     # Defines color of the frame around the notification window.
     frame_color = "#eee2"
@@ -126,7 +126,7 @@
 
     ### Text ###
 
-    font = New SEC APP 10
+    font = Onest 10
 
     # The spacing between lines.  If the height is smaller than the
     # font height, it will get raised to the font height.

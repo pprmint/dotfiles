@@ -8,45 +8,71 @@ Configs and scripts for my Hyprland setup, managed with [chezmoi](https://www.ch
 
 I use [Arch](https://archlinux.org/) btw.
 
-![Desktop screenshot.](/.repoassets/screenshot_desktop.png)
+![Screenshot of my desktop.](/.repoassets/Desktop.png)
 
-![Screen brightness and color temperature screenshot.](/.repoassets/screenshot_temperature_brightness.png)
+## Blah.
 
-![Power menu screenshot.](/.repoassets/screenshot_tofi_powermenu.png)
+I'll preface this by saying I (mostly) use GTK apps (like the Nautilus file manager) and GTK portals around here. I won't go over how to set all of that up. Refer to the [Hyprland wiki](https://wiki.hyprland.org/) if you need help.
 
-# Setup.
-
-I'll preface this by saying I'm using GTK apps (like the Nautilus file manager) and GTK portals here. I won't go over how to set all of that up. Refer to the [Hyprland wiki](https://wiki.hyprland.org/) if you need help with that.
-
-Further, I suggest taking a look at the configs and some of the scripts I wrote and making sure they'll work for your particular setup. Chances are your monitor config in Hyprland won't exactly match mine, nor will your output devices in toggle-output.sh.
-
-![Output change screenshot.](/.repoassets/screenshot_speaker.png)
+Further, I suggest taking a look at the configs and scripts I wrote to make sure they'll work for your particular setup. Chances are things won't work for you right away.
 
 ## Packages.
 
 `sudo pac -S zsh hyprland hyprpaper waybar dunst eza nautilus`
 
-`yay -S hyprshot hyprpicker tofi-git wl-gammarelay-rs swaylock-effects-git ponymix`
+`yay -S hyprshot hyprpicker tofi wl-gammarelay-rs swaylock-effects-git ponymix`
 
-## Fonts and icons.
+## System font.
 
-My system font is the default One UI 6 font, which I ripped from my mom's Galaxy.
+**[Onest](https://onest.md/)**
 
-As for file icons, I'm using the [Colloid icon theme](https://github.com/vinceliuice/Colloid-icon-theme) and also its [cursors](https://github.com/vinceliuice/Colloid-icon-theme/tree/main/cursors).
+Not much else to say about this one, really.
 
-I also use a lot of [Lucide](https://lucide.dev/) icons for this. The icon font appears a bit misaligned in Waybar for instance though.
+### Monospace font.
 
-If you're using [FontForge](https://fontforge.org/en-US/) like yours truly, you can fix that by selecting all the glyphs, going to Element > Transformations > Transform..., setting Y to -190 and hitting OK.
+**[Iosevka](https://github.com/be5invis/Iosevka)**
 
-Or use a different icon set for that altogether, like [Remix Icons](https://remixicon.com/).
+I was bored, so I used their [customizer](https://typeof.net/Iosevka/customizer) to make my own variant with cherry-picked characters.
 
-# Rounding things off.
+![Overview of the Iosevka font with custom glyphs.](/.repoassets/Iosevka.svg)
 
-10px.
+If that's something that interests you, read more about that [here](https://github.com/be5invis/Iosevka/blob/main/doc/custom-build.md).
+
+If you wish to copy my configuration, follow the instructions from the link above and use the contents of my `iosevka.toml` for the `private-build-plans.toml` file.
+
+To build the regular, terminal and quasi-proportional variants in one go, run this:
+
+`npm run build -- ttf::IosevkaMint && npm run build -- ttf::IosevkaMintTerm && npm run build -- ttf::IosevkaMintSans`
+
+## Icon theme.
+
+**[Colloid icon theme](https://github.com/vinceliuice/Colloid-icon-theme)**
+
+The green dracula variant to be exact.
+
+I also use the [cursors](https://github.com/vinceliuice/Colloid-icon-theme/tree/main/cursors), so you might as well install those while you're in there.
+
+## UI icons.
+
+**[Lucide](https://lucide.dev/)**
+
+Those are the icons I use for my Waybar and Dunst notifications.
+
+![Screenshot of my Waybar and a Dunst notification from changing my volume.](/.repoassets/Waybar+Notification.png)
+
+Because the baseline of the icon font is a bit weird, I suggest using [FontForge](https://fontforge.org/en-US/) to change the position of the glyphs. Select all glyphs, then go to Element > Transformations > Transform..., set Y to -190 and hit OK.
+
+Or use a different icon font altogether, like [Remix Icons](https://remixicon.com/).
+
+## Borders++.
+
+![Screenshot of two windows overlapping, with the top left corner of the top window zoomed into.](/.repoassets/BordersPlusPlus.png)
+
+[How](https://wiki.hyprland.org/Plugins/Using-Plugins/) and [what](https://github.com/hyprwm/hyprland-plugins/tree/main/borders-plus-plus).
 
 ## Firefox.
 
-![Firefox screenshot.](/.repoassets/screenshot_firefox.png)
+![Screenshot of the Firefox new tab page.](/.repoassets/Firefox.png)
 
 Here's my [Firefox Color "creation"](https://color.firefox.com/?theme=XQAAAALsAgAAAAAAAABBqYhm849SCicxcUMVgXcGHf3p79EhVPXpIZ1ibTLiQvLY1QylemTgx7hM1zvKvEf7PgmwvnHuxDkveHeHkLt3av2iYRA3oxMaYYcUKFAgO85u6uA5DQFwqDQFvI6EZsEKRt4YIIjdG6Asf76rWbrf6jo-3N5B_HslmOQO-cKRVs0OqOQ_tIIkb2EeIzMHImWLd-99TnG6CT72bDVZzUWkxx8253EU0xKh2o154Ih1MBlRZWRAZR16P33G1tRKsrFvo4yr2NLviDIO9Txwd-EpzIlb7avavGcNspQ05RzUzlG10TvK4DI26EXTCqoULZXxu64WNZSPlBrUjCsICaUKRY-6swk9VK2mqXBRtMOJ4lMvzrmMwWfI2m2hW9H8s59VUULxyrHO-HO7V8aLktnwJnkHDx9Fk9Bi0ABKPthvY2kjzHcQyuDs05iaC3e__KjJxw) and [where I got vertical tabs from](https://github.com/ranmaru22/firefox-vertical-tabs).
 
@@ -79,15 +105,13 @@ Very !important.
 
 ## tty.
 
-[mkinitcpio-colors-git](https://github.com/evanpurkhiser/mkinitcpio-colors) (AUR)
+**[mkinitcpio-colors-git](https://github.com/evanpurkhiser/mkinitcpio-colors) (AUR)**
 
 I'm well aware this could be done without installing something and adding another hook, but I'm not smart enough for that. At least this allows me to use HEX codes.
 
 Here's my `/etc/vconsole.conf`:
 
 ```
-KEYMAP=us
-XKBLAYOUT=us
 COLOR_0=111111
 COLOR_1=FF4444
 COLOR_2=00CC66
@@ -106,17 +130,19 @@ COLOR_14=44CCDD
 COLOR_15=AAAAAA
 ```
 
-## VS Code.
+## VS Code / VS Codium.
 
-![VS Code screenshot.](/.repoassets/screenshot_code.png)
+![Screenshot of .](/.repoassets/Spaghetti.png)
 
 I created my theme on [vscode.one](https://themes.vscode.one/) and applied it locally [as explained here](https://themes.vscode.one/faq/local-install).
 
-You could apply the syntax colors as well, but I prefer VS Code's default ones.
+My colors are defined in the `vscode.json` file.
+
+You could apply the syntax colors as well, but I prefer the default ones.
 
 ## GTK.
 
-![GNOME Files screenshot.](/.repoassets/screenshot_nautilus.png)
+![GNOME Files screenshot.](/.repoassets/Nautilus.png)
 
 GNOME and some GTK app developers [don't really want you to theme their apps](https://stopthemingmy.app/).
 

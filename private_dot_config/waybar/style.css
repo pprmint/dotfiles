@@ -2,8 +2,8 @@
 
 * {
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family: lucide, remixicon, 'New SEC APP', FontAwesome, Roboto, Helvetica, Arial, sans-serif;
-    font-size: 13.5px;
+    font-family: lucide, Onest, FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 13px;
 }
 
 window#waybar {

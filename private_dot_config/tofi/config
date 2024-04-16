@@ -13,7 +13,7 @@
 	# characters not in the chosen font will fail to render.
 	#
 	# Otherwise, fonts are interpreted in Pango format.
-	font = "New SEC APP"
+	font = "Onest"
 
 	# Point size of text.
 	font-size = 16
@@ -178,10 +178,10 @@
 	outline-width = 0
 
 	# Border outline color
-	outline-color = #333
+	outline-color = #111
 
 	# Width of the border in pixels.
-	border-width = 2
+	border-width = 1
 
 	# Border color
 	border-color = #eee2
