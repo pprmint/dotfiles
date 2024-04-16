@@ -104,28 +104,28 @@
 	"cpu": {
 		"format": "{icon}   {usage}%",
 		"format-icons": [
-			"<span color='#00cc66'></span>",
-			"<span color='#00cc66'></span>",
-			"<span color='#00cc66'></span>",
-			"<span color='#99cc33'></span>",
-			"<span color='#ffbb00'></span>",
-			"<span color='#ff7711'></span>",
-			"<span color='#ff4444'></span>",
-			"<span color='#ff4444'></span>"
+			"<span color='#00cc66'></span>",
+			"<span color='#00cc66'></span>",
+			"<span color='#00cc66'></span>",
+			"<span color='#99cc33'></span>",
+			"<span color='#ffbb00'></span>",
+			"<span color='#ff7711'></span>",
+			"<span color='#ff4444'></span>",
+			"<span color='#ff4444'></span>"
 		],
 		"tooltip": false
 	},
 	"memory": {
 		"format": "{icon}   {}%",
 		"format-icons": [
-			"<span color='#00cc66'></span>",
-			"<span color='#00cc66'></span>",
-			"<span color='#00cc66'></span>",
-			"<span color='#99cc33'></span>",
-			"<span color='#ffbb00'></span>",
-			"<span color='#ff7711'></span>",
-			"<span color='#ff4444'></span>",
-			"<span color='#ff4444'></span>"
+			"<span color='#00cc66'></span>",
+			"<span color='#00cc66'></span>",
+			"<span color='#00cc66'></span>",
+			"<span color='#99cc33'></span>",
+			"<span color='#ffbb00'></span>",
+			"<span color='#ff7711'></span>",
+			"<span color='#ff4444'></span>",
+			"<span color='#ff4444'></span>"
 		]
 	},
 	"temperature": {
@@ -188,23 +188,23 @@
 		"format": "{icon}   {volume}% {format_source}",
 		"format-bluetooth": "{volume}% {icon} {format_source}",
 		"format-bluetooth-muted": " {icon} {format_source}",
-		"format-muted": "<span color='#f44'></span> {format_source}",
-		"format-source": "   <span color='#00cc66'></span>   {volume}%",
-		"format-source-muted": "",
+		"format-muted": "<span color='#f44'></span> {format_source}",
+		"format-source": "   <span color='#00cc66'></span>   {volume}%",
+		"format-source-muted": "",
 		"format-icons": {
-			"headphone": "",
+			"headphone": "",
             "hdmi": [
-				"<span color='#00cc66'></span>",
-				"<span color='#00cc66'></span>",
-				"<span color='#00cc66'></span>",
-				"<span color='#00cc66'></span>",
-				"<span color='#00cc66'></span>",
-				"<span color='#00cc66'></span>",
-				"<span color='#99cc33'></span>",
-				"<span color='#ffbb00'></span>",
-				"<span color='#ff7711'></span>",
-				"<span color='#ff4444'></span>",
-				"<span color='#ff4444'></span>"
+				"<span color='#00cc66'></span>",
+				"<span color='#00cc66'></span>",
+				"<span color='#00cc66'></span>",
+				"<span color='#00cc66'></span>",
+				"<span color='#00cc66'></span>",
+				"<span color='#00cc66'></span>",
+				"<span color='#99cc33'></span>",
+				"<span color='#ffbb00'></span>",
+				"<span color='#ff7711'></span>",
+				"<span color='#ff4444'></span>",
+				"<span color='#ff4444'></span>"
 			],
 			"hands-free": "",
 			"headset": "",
@@ -212,17 +212,17 @@
 			"portable": "",
 			"car": "",
 			"default": [
-				"<span color='#00cc66'></span>",
-				"<span color='#00cc66'></span>",
-				"<span color='#00cc66'></span>",
-				"<span color='#00cc66'></span>",
-				"<span color='#00cc66'></span>",
-				"<span color='#00cc66'></span>",
-				"<span color='#99cc33'></span>",
-				"<span color='#ffbb00'></span>",
-				"<span color='#ff7711'></span>",
-				"<span color='#ff4444'></span>",
-				"<span color='#ff4444'></span>"
+				"<span color='#00cc66'></span>",
+				"<span color='#00cc66'></span>",
+				"<span color='#00cc66'></span>",
+				"<span color='#00cc66'></span>",
+				"<span color='#00cc66'></span>",
+				"<span color='#00cc66'></span>",
+				"<span color='#99cc33'></span>",
+				"<span color='#ffbb00'></span>",
+				"<span color='#ff7711'></span>",
+				"<span color='#ff4444'></span>",
+				"<span color='#ff4444'></span>"
 			]
 		},
 		"tooltip": false,
@@ -244,7 +244,7 @@
 		"exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null"
 	},
 	"custom/wl-gammarelay-temperature": {
-		"format": "<span color='#0c6'></span>   {}K",
+		"format": "<span color='#0c6'></span>   {}K",
 		"exec": "wl-gammarelay-rs watch {t}",
 		"on-scroll-up": "$HOME/.local/share/scripts/temperature-control.sh increase",
 		"on-scroll-down": "$HOME/.local/share/scripts/temperature-control.sh decrease",
@@ -252,7 +252,7 @@
 		"tooltip": false
 	},
 	"custom/wl-gammarelay-brightness": {
-		"format": "<span color='#0c6'></span>   {}%",
+		"format": "<span color='#0c6'></span>   {}%",
 		"exec": "wl-gammarelay-rs watch {bp}",
 		"on-scroll-up": "$HOME/.local/share/scripts/brightness-control.sh increase",
 		"on-scroll-down": "$HOME/.local/share/scripts/brightness-control.sh decrease",
