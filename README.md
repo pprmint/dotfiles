@@ -18,9 +18,9 @@ Further, I suggest taking a look at the configs and scripts I wrote to make sure
 
 ## Packages.
 
-`sudo pac -S zsh hyprland hyprpaper waybar dunst eza nautilus`
+`sudo pac -S zsh hyprland hyprpaper hyprlock hypridle waybar dunst eza nautilus`
 
-`yay -S hyprshot hyprpicker tofi wl-gammarelay-rs swaylock-effects-git ponymix`
+`yay -S hyprshot hyprpicker tofi wl-gammarelay-rs ponymix`
 
 ## System font.
 
