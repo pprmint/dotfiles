@@ -74,7 +74,7 @@ Or use a different icon font altogether, like [Remix Icons](https://remixicon.co
 
 ![Screenshot of the Firefox new tab page.](/.repoassets/Firefox.png)
 
-Here's my [Firefox Color "creation"](https://color.firefox.com/?theme=XQAAAALsAgAAAAAAAABBqYhm849SCicxcUMVgXcGHf3p79EhVPXpIZ1ibTLiQvLY1QylemTgx7hM1zvKvEf7PgmwvnHuxDkveHeHkLt3av2iYRA3oxMaYYcUKFAgO85u6uA5DQFwqDQFvI6EZsEKRt4YIIjdG6Asf76rWbrf6jo-3N5B_HslmOQO-cKRVs0OqOQ_tIIkb2EeIzMHImWLd-99TnG6CT72bDVZzUWkxx8253EU0xKh2o154Ih1MBlRZWRAZR16P33G1tRKsrFvo4yr2NLviDIO9Txwd-EpzIlb7avavGcNspQ05RzUzlG10TvK4DI26EXTCqoULZXxu64WNZSPlBrUjCsICaUKRY-6swk9VK2mqXBRtMOJ4lMvzrmMwWfI2m2hW9H8s59VUULxyrHO-HO7V8aLktnwJnkHDx9Fk9Bi0ABKPthvY2kjzHcQyuDs05iaC3e__KjJxw) and [where I got vertical tabs from](https://github.com/ranmaru22/firefox-vertical-tabs).
+Here's my [Firefox Color "creation"](https://color.firefox.com/?theme=XQAAAALsAgAAAAAAAABBqYhm849SCicxcUMVgXcGHf3p79EhVPXpIZ1ibTLiQvLY1QylemTgx7hM1zvKvEf7PgmwvnHuxDkveHeHkLt3av2iYRA3oxMaYYcUKFAgO85u6uA5DQFwqDQFvI6EZsEKRt4YIIjdG6Asf76rWbrf6jo-3N5B_HslmOQO-cKRVs0OqOQ_tIIkb2EeIzMHImWLd-99TnG6CT72bDVZzUWkxx8253EU0xKh2o154Ih1MBlRZWRAZR16P33G1tRKsrFvo4yr2NLviDIO9Txwd-EpzIlb7avavGcNspQ05RzUzlG10TvK4DI26EXTCqoULZXxu64WNZSPlBrUjCsICaUKRY-6swk9VK2mqXBRtMOJ4lMvzrmMwWfI2m2hW9H8s59VUULxyrHO-HO7V8aLktnwJnkHDx9Fk9Bi0ABKPthvY2kjzHcQyuDs05iaC3e__KjJxw) and [where I got vertical tabs from](https://codeberg.org/ranmaru22/firefox-vertical-tabs).
 
 And here's something for a `chrome/userContent.css` in your profile folder if you wanna change the background color of shortcuts and search bar on the new tab screen:
 
