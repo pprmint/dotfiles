@@ -1,10 +1,9 @@
-<p align="center">
-    <img height="150" alt="A dark file icon. Inside it is a green circle, which is surrounded by two curly brackets." src="/.repoassets/file-icon.svg">
-</p>
+# Dotfiles. <img align="right" height="40" src="/.repoassets/file-icon.svg">
 
-# Dotfiles.
+> [!WARNING]
+> I stopped using Hyprland as my daily driver in favor of KDE Plasma. These dotfiles are no longer maintained.
 
-Configs and scripts for my Hyprland setup, managed with [chezmoi](https://www.chezmoi.io/).
+Configs and scripts for my (former) Hyprland setup, managed with [chezmoi](https://www.chezmoi.io/).
 
 I use [Arch](https://archlinux.org/) btw.
 
